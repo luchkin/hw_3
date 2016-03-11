@@ -1,0 +1,154 @@
+.clear-fix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+	background: grey ;
+}
+.page{
+	margin: 0 auto;
+	height: 725px;
+	width: 1050px;
+	background: white;
+}
+.zagolovok{
+	display: block;
+	height: 51px;
+	width: 100px;
+}
+.menu {
+	display: block;
+	height: 40px;
+	width: 985px;
+	text-align: center;
+	list-style: none;
+	background: black;
+}
+
+/*.item {
+	color: white;
+	list-style: none;
+}*/
+/*.navig2 {
+	text-align: center;
+	list-style: none;
+}*/
+.nav-list {
+	margin: 5px;
+	/*color: white;*/
+	display: inline-block;
+}
+.linemenu {
+	color: white;
+}
+
+.nav-list >li {
+	padding: 0 120px 0 70px;
+	float: left;
+	display: block;
+}
+.nav-list li:hover{
+	background: grey;
+}
+.njvig1 {
+	list-style: none;
+	width: 200px
+}
+.njvig1 li {
+	padding: 5px;
+	border: 1px solid;
+	/*margin-bottom: 5px;*/
+	zoom:1;
+}
+.njvig1 li a {
+	display: block;
+	padding: 3px 5px;
+	background: #cc;
+	color: #000;
+	position: relative;
+}
+.njvig1 li a :hover {
+	background: #999;
+	color: #fff;
+}
+.kontent {
+	margin: 0 auto;
+	height: 500px;
+	width: 950px;
+}
+.menubox {
+	/*border: 1px solid;*/
+	height: 216px;
+	width: 200px;
+	float: left;
+}
+.visual {
+	height: 500px;
+	width: 700px;
+	float: right;
+	/*border: solid*/;
+}
+.bike {
+	padding: 5px;
+	height: 400px;
+	width: 680px;
+	border: 1px solid;
+}
+.text {
+	height: 100px;
+	width: 690px;
+}
+.pol_size {
+	margin: 0 auto;
+	width: 100%;
+}
+.header {
+	height: 140px;
+	/*background-color: #F7F9F5;*/
+	padding: 0 35px;
+}
+.left_col {
+	width: 198px;
+	vertical-align: top;
+	background-color: white;
+
+}
+.center_col {
+	background-color: #fff;
+	padding: 16px;
+
+}
+.footer {
+	margin: 0 50px;
+	height: 30px;
+	padding: 12px;
+	background-color: grey;
+	font-size: 12px;
+}
+.menu1 {
+	display: block;
+	height: 40px;
+	width: 985px;
+	text-align: center;
+	list-style: none;
+	
+}
+.footermenu {
+
+	margin: 5px;
+	display: inline-block;
+}
+.footermenu >li {
+	padding: 0 60px 0 50px;
+	float: left;
+	display: block;
+}
+.footermenu li:hover{
+	background: green;
+}
